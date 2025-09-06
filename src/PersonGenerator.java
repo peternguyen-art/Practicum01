@@ -40,7 +40,7 @@ public class PersonGenerator {
             title = SafeInput.getNonZeroLenString(in, "Enter Title");
             yearOfBirth = SafeInput.getRangedInt(in, "Enter your YOB", 1000, 9999);
 
-            CSVPersonRec = ID + ", " + firstname + ", " + lastname + ", " + title + ", " + yearOfBirth + "\n";
+            CSVPersonRec = ID + ", " + firstname + ", " + lastname + ", " + title + ", " + yearOfBirth;
 
             csvPersons.add(CSVPersonRec);
 
